@@ -23,10 +23,10 @@ Using Portland, OR (because they have awesome imagery data)
 ## Workflow
 * Bring data into Python
   * For each image:
-  1. Identify structures in scene
-    * For each structure:
-⋅⋅⋅⋅1. Extract raster data for classification
-⋅⋅⋅⋅2. Calculate aggregate measures
+    1. Identify structures in scene
+  * For each structure:
+    1. Extract raster data for classification
+    2. Calculate aggregate measures
 
 ## Next steps
 - [x] Convert example from R to Python
