@@ -21,9 +21,7 @@ Using Portland, OR (because they have awesome imagery data)
   - >600K buildings, reduced to ~150K 'houses' for analysis
 
 ## Workflow
-* Bring data into Python
-  * For each image:
-    1. Identify structures in scene
+* For each image, identify structures in scene
   * For each structure:
     1. Extract raster data for classification
     2. Calculate aggregate measures
