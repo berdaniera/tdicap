@@ -12,21 +12,19 @@ Detecting buildings automatically in aerial imagery will allow rapid ID of probl
 ## Data
 Using Portland, OR (because they have awesome imagery data)
 * Aerial imagery: 
-
-..- 4-channel (R-G-B-Nir) rasters (convert to numpy array)
-..- 6-inch resolution over the whole city
-..- each approx. 500MB, already downloaded 80 from 2010 (may download repeat scenes from 2012 for change detection)
+  - 4-channel (R-G-B-Nir) rasters (convert to numpy array)
+  - 6-inch resolution over the whole city
+  - each approx. 500MB, already downloaded 80 from 2010 (may download repeat scenes from 2012 for change detection)
 
 * House outlines:
-
-..- shapefile, 1.3GB, outlines of each structure
-..- >600K buildings, reduced to ~150K 'houses' for analysis
+  - shapefile, 1.3GB, outlines of each structure
+  - >600K buildings, reduced to ~150K 'houses' for analysis
 
 ## Workflow
 * Bring data into Python
-⋅⋅* For each image:
-⋅⋅1. Identify structures in scene
-⋅⋅⋅⋅* For each structure:
+  * For each image:
+  1. Identify structures in scene
+    * For each structure:
 ⋅⋅⋅⋅1. Extract raster data for classification
 ⋅⋅⋅⋅2. Calculate aggregate measures
 
