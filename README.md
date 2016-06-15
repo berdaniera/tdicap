@@ -1,9 +1,8 @@
-# Detecting houses in aerial images
+# Detecting trees over houses
 Aaron Berdanier
 
 ## Problem
 * Trees grow over buildings and create a risk of property damage - liability for real estate, concern for insurance.
-* Homeowners build unpermitted structures on their property - concern for municipalities.
 
 ## Solution
 Supervised classification can easily distinguish houses from surrounding vegetation (grass, trees).
@@ -30,11 +29,11 @@ Using Portland, OR (because they have awesome imagery data)
 - [x] Convert example from R to Python
 - [x] Download data from USGS and Portland Open Data
 - [x] Generate test and training data, demonstrate separation
-- [ ] Fit classification model with manual test and training data
+- [x] Fit classification model with manual test and training data
 - [ ] Classify all houses in an image
 - [ ] Figure out how to run images in parallel
 
-## Optional
+## Possible extensions
 - [ ] Get tax parcel boundaries (but not open for download right now)
 - [ ] Get building permit data for each parcel
 - [ ] Get 2012 imagery for change detection
