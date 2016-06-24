@@ -30,7 +30,7 @@ Using Portland, OR (because they have awesome imagery data)
 - [x] Download data from USGS and Portland Open Data
 - [x] Generate test and training data, demonstrate separation
 - [x] Fit classification model with manual test and training data
-- [ ] Classify all houses in an image
+- [x] Classify all houses in an image
 - [ ] Figure out how to run images in parallel
 
 ## Possible extensions
