@@ -126,7 +126,7 @@ for filedir in dirs:
             ras2 = clip_raster(ra,gt,house)
         except:
             continue
-        sr = ras2[3]*1./ras2[0]
+        sr = np.log(ras2[3]*1./ras2[0])
         sr = sr[np.isfinite(sr)]
         sr = sr.tolist()
         outdat.append({'corner':house.points[0], 'sr':sr}) # corner coordinate
