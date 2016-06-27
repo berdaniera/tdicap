@@ -129,7 +129,8 @@ for filedir in dirs:
         sr = np.log(ras2[3]*1./ras2[0])
         sr = sr[np.isfinite(sr)]
         sr = sr.tolist()
-        outdat.append({'corner':house.points[0], 'sr':sr}) # corner coordinate
+        xy = [int(x) for x in house.points[0]]
+        outdat.append({'corner':xy, 'sr':sr}) # corner coordinate
         cnt += 1
         if cnt%100 == 0: print cnt
 
