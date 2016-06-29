@@ -42,7 +42,7 @@ ax.legend(loc='upper right',fontsize=20)
 ax.set_xlabel('Spectral index (NIR / Red)',fontsize=20)
 ax.tick_params(axis='both', which='major', labelsize=15)
 #fig.show()
-fig.savefig('test.pdf',format="pdf")
+fig.savefig('/home/aaron/Desktop/outdata.pdf',format="pdf")
 
 #sea.kdeplot(houss,shade=True,cut=0,bw=0.05)
 #sea.kdeplot(trees,shade=True,cut=0,bw=0.05)

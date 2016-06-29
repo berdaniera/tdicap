@@ -75,6 +75,7 @@ c = shapefile.Reader('/home/vagrant/PortlandBuildings/Building_Footprints_pdx')
 #c.bbox # bounding box of the shapefile
 records = c.records() # get the 'data' from the shapefile
 #len(records) # number of buildings in Portland
+#c = shapefile.Reader('/home/aaron/Downloads/PortlandBuildings/Building_Footprints_pdx')
 
 recpa = pa.DataFrame(records, columns=pa.DataFrame(c.fields).ix[1:,0])
 #recpa.head()

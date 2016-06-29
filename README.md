@@ -10,7 +10,7 @@ Detecting buildings automatically in aerial imagery will allow rapid ID of probl
 
 ## Data
 Using Portland, OR (because they have awesome imagery data)
-* Aerial imagery: 
+* Aerial imagery:
   - 4-channel (R-G-B-Nir) rasters (convert to numpy array)
   - 6-inch resolution over the whole city
   - each approx. 500MB, already downloaded 80 from 2010 (may download repeat scenes from 2012 for change detection)
@@ -31,9 +31,9 @@ Using Portland, OR (because they have awesome imagery data)
 - [x] Generate test and training data, demonstrate separation
 - [x] Fit classification model with manual test and training data
 - [x] Classify all houses in an image
-- [ ] Figure out how to run images in parallel
+- [x] Run all images (maybe in parallel)
 
-## Possible extensions
+## Future extensions
 - [ ] Get tax parcel boundaries (but not open for download right now)
 - [ ] Get building permit data for each parcel
-- [ ] Get 2012 imagery for change detection
+- [ ] Get repeat imagery for change detection
